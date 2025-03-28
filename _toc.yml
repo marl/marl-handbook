@@ -3,7 +3,49 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: Getting started
+    chapters:
+    - file: ch1/intro
+    - file: ch1/conduct
+    - file: ch1/atttribution
+    - file: ch1/logistics
+  - caption: Lab resources
+    chapters:
+    - file: ch2/compute
+    - file: ch2/data
+    - file: ch2/software
+    - file: ch2/communication
+  - caption: Essential skills
+    chapters:
+    - file: ch3/unix
+    - file: ch3/vcs
+    - file: ch3/conda
+    - file: ch3/reproducibility
+  - caption: Writing and presentation
+    chapters:
+    - file: ch4/writing
+    - file: ch4/figures
+    - file: ch4/stats
+    - file: ch4/tools
+  - caption: Presentations
+    chapters:
+    - file: ch5/slides
+    - file: ch5/talks
+    - file: ch5/posters
+    - file: ch5/conferences
+  - caption: Technical best practices
+    chapters:
+    - file: ch6/ml
+    - file: ch6/audio
+    - file: ch6/models
+  - caption: Professional development
+    chapters:
+    - file: ch7/academic
+    - file: ch7/wellness
+    - file: ch7/funding
+  - caption: Miscellaneous
+    chapters:
+    - file: chXX/onboarding
+    - file: chXX/FAQ
+    - file: chXX/advice
