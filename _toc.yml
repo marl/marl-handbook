@@ -31,7 +31,6 @@ parts:
   - caption: Presentations
     chapters:
     - file: ch5/slides
-    - file: ch5/talks
     - file: ch5/posters
     - file: ch5/conferences
   - caption: Technical best practices
