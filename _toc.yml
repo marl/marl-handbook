@@ -43,6 +43,7 @@ parts:
     - file: ch7/wellness
     - file: ch7/funding
   - caption: Miscellaneous
+    maxdepth: 1
     chapters:
     - file: chXX/onboarding
     - file: chXX/FAQ
