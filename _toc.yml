@@ -6,7 +6,6 @@ root: intro
 parts:
   - caption: Getting started
     chapters:
-    - file: ch1/intro
     - file: ch1/conduct
     - file: ch1/attribution
     - file: ch1/logistics
