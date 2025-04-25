@@ -1,4 +1,4 @@
-## Machine learning fundamentals
+# Machine learning fundamentals
 
 - Always start with the simplest possible thing
 - Start small and scale up

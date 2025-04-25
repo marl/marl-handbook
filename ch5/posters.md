@@ -1,4 +1,4 @@
-## Posters
+# Posters
 
 - Poster design
 - Minimize amount of text

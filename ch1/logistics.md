@@ -1,6 +1,6 @@
-## Logistics
+# Logistics
 
-### Lab meetings
+## Lab meetings
 
 MARL lab meetings for the current semester, Spring 2025, are scheduled as follows:
 
@@ -12,7 +12,7 @@ MARL lab meetings for the current semester, Spring 2025, are scheduled as follow
 These meeting dates are in effect until May 1, 2025.
 
 
-### Contacts and questions
+## Contacts and questions
 
 For questions about administrative matters, including the following, please contact the MARL Lab Manager, Isabelle Burger-Weiser at ib2225@nyu.edu. 
 

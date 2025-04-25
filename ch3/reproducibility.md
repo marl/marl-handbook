@@ -1,4 +1,4 @@
-## Reproducibility
+# Reproducibility
 
 Best practices here, eg SPM paper
 

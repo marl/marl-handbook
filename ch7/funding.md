@@ -1,4 +1,4 @@
-## Funding, grants, and fellowships
+# Funding, grants, and fellowships
 
 Sample proposals
 

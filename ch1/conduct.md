@@ -1,3 +1,3 @@
-## Code of Conduct
+# Code of Conduct
 
 Insert from existing CoC

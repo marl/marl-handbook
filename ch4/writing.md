@@ -1,4 +1,4 @@
-## Writing
+# Writing
 
 - Basic paper structure
 - Don't use roadmap paragraphs for short papers (< 10 pages)

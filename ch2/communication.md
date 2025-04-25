@@ -1,4 +1,4 @@
-## Lab communication
+# Lab communication
 
 Slack
 

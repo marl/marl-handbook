@@ -1,3 +1,3 @@
-## Frequently asked questions
+# Frequently asked questions
 
 - Why are we so great?

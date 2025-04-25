@@ -1,4 +1,4 @@
-## Version Control Systems (GitHub!)
+# Version Control Systems (GitHub!)
 
 How git works
 

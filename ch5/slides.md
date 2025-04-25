@@ -1,4 +1,4 @@
-## Slides
+# Slides
 
 - Minimize text and reading
 - Accessibility: fonts and colors

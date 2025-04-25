@@ -1,6 +1,6 @@
-## Attending conferences
+# Attending conferences
 
-### In-person
+## In-person
 
-### Virtual
+## Virtual
 

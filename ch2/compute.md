@@ -1,4 +1,4 @@
-## Computing resources
+# Computing resources
 
 HPC access
 

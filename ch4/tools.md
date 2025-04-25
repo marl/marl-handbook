@@ -1,4 +1,4 @@
-## Tools to improve your writing
+# Tools to improve your writing
 
 - Proselint
 - Grammarly

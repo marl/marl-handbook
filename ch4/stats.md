@@ -1,4 +1,4 @@
-## Statistics
+# Statistics
 
 - Fundamentals
     - what is model evaluation?

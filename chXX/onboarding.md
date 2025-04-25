@@ -1,4 +1,4 @@
-## Onboarding checklist
+# Onboarding checklist
 
 Welcome to the lab! Use this checklist to guide your initial setup.
 
@@ -6,7 +6,7 @@ Welcome to the lab! Use this checklist to guide your initial setup.
 
 ---
 
-#### 🔑 Administrative Tasks
+## 🔑 Administrative Tasks
 
 - [ ] Meet with your advisor and clarify initial research goals.
 - [ ] Complete lab-specific paperwork (if applicable).
@@ -15,7 +15,7 @@ Welcome to the lab! Use this checklist to guide your initial setup.
 
 ---
 
-#### 💻 Technical Setup
+## 💻 Technical Setup
 
 - [ ] Set up institutional email and calendar.
 - [ ] Create GitHub account and join the lab's GitHub organization.
@@ -29,7 +29,7 @@ Welcome to the lab! Use this checklist to guide your initial setup.
 
 ---
 
-#### 📚 Lab Handbook and Documentation
+## 📚 Lab Handbook and Documentation
 
 - [ ] Read the Lab Handbook thoroughly.
 - [ ] Familiarize yourself with the Code of Conduct.
@@ -37,7 +37,7 @@ Welcome to the lab! Use this checklist to guide your initial setup.
 
 ---
 
-### 🛠️ Resources and Infrastructure
+## 🛠️ Resources and Infrastructure
 
 - [ ] Get access to internal lab resources:
     - Shared drives/storage (cloud or institutional)
@@ -47,7 +47,7 @@ Welcome to the lab! Use this checklist to guide your initial setup.
 
 ---
 
-### 📖 Essential Skills and Training
+## 📖 Essential Skills and Training
 
 - [ ] Review the basics of Unix/Linux and the command line ([MIT Unix tutorial](https://missing.csail.mit.edu/)).
 - [ ] Review Git and GitHub basics (branching, merging, pull requests).
@@ -55,7 +55,7 @@ Welcome to the lab! Use this checklist to guide your initial setup.
 
 ---
 
-#### 📊 Research Workflow
+## 📊 Research Workflow
 
 - [ ] Discuss reproducibility expectations with your advisor:
     - Documenting code and experiments clearly
@@ -65,14 +65,14 @@ Welcome to the lab! Use this checklist to guide your initial setup.
 
 ---
 
-#### 📝 Initial Goals and Project Setup
+## 📝 Initial Goals and Project Setup
 
 - [ ] Draft an initial research plan or document outlining your first month’s tasks.
 - [ ] Schedule regular check-ins with your advisor and senior lab members.
 
 ---
 
-#### ✅ Final Check-In
+## ✅ Final Check-In
 
 - [ ] Review this checklist with a senior lab member or your advisor.
 - [ ] Identify any additional resources or training required.
