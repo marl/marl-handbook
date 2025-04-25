@@ -1,3 +1,4 @@
 jupyter-book
+sphinxcontrib-email
 matplotlib
 numpy

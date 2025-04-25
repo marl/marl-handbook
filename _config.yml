@@ -20,6 +20,12 @@ latex:
 bibtex_bibfiles:
   - references.bib
 
+sphinx:
+  extra_extensions:
+    - sphinxcontrib.email
+  config:
+    email_automode: true
+
 # Information about where the book exists on the web
 repository:
   url: https://github.com/marl/marl-handbook  # Online location of your book
