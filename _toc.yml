@@ -21,6 +21,7 @@ parts:
     - file: ch3/vcs
     - file: ch3/conda
     - file: ch3/reproducibility
+    - file: ch3/opensource
   - caption: Writing and presentation
     chapters:
     - file: ch4/writing
