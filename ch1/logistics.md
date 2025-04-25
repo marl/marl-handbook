@@ -8,7 +8,6 @@ MARL lab meetings for the current semester, Spring 2025, are scheduled as follow
 |-------|------|----------|
 | Music cognition and neuroscience (MCN) | Thursday 9:15-10:45 AM | 324 |
 | Machine listening (ML) | Thursday 1:00-2:00 PM | 324 |
-|----|------------------|----------|
 
 These meeting dates are in effect until May 1, 2025.
 
