@@ -2,8 +2,6 @@
 
 Welcome to the lab! Use this checklist to guide your initial setup.
 
-**NOTE** this is just chatgpt boilerplate, we should edit this appropriately
-
 ---
 
 ## 🔑 Administrative Tasks
@@ -11,7 +9,7 @@ Welcome to the lab! Use this checklist to guide your initial setup.
 - [ ] Meet with your advisor and clarify initial research goals.
 - [ ] Complete lab-specific paperwork (if applicable).
 - [ ] Get access to the building, lab space, and necessary equipment.
-- [ ] Join lab communication channels (Slack, Discord, mailing lists).
+- [ ] Join lab communication channels (Slack, mailing lists).
 
 ---
 
@@ -19,12 +17,11 @@ Welcome to the lab! Use this checklist to guide your initial setup.
 
 - [ ] Set up institutional email and calendar.
 - [ ] Create GitHub account and join the lab's GitHub organization.
-- [ ] Set up SSH keys for GitHub, GitLab, and cluster access.
+- [ ] Set up SSH keys for GitHub and cluster access.
 - [ ] Install essential software:
     - Python (via Anaconda/miniconda)
     - Git
     - Jupyter Lab
-    - Docker (optional)
 - [ ] Familiarize yourself with lab's computing cluster (account creation, logging in via SSH).
 
 ---
@@ -32,7 +29,7 @@ Welcome to the lab! Use this checklist to guide your initial setup.
 ## 📚 Lab Handbook and Documentation
 
 - [ ] Read the Lab Handbook thoroughly.
-- [ ] Familiarize yourself with the Code of Conduct.
+- [ ] Familiarize yourself with the [Code of Conduct](coc).
 - [ ] Understand the policy on chatbot usage, attribution, and co-authorship guidelines.
 
 ---
@@ -40,8 +37,8 @@ Welcome to the lab! Use this checklist to guide your initial setup.
 ## 🛠️ Resources and Infrastructure
 
 - [ ] Get access to internal lab resources:
-    - Shared drives/storage (cloud or institutional)
-    - Computing resources (GPU servers, clusters)
+    - Computing resources (HPC)
+    - Shared drives/storage (HPC, box)
     - Internal datasets and databases
 - [ ] Clone or fork essential lab repositories (codebases, shared utilities).
 

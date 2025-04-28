@@ -1,3 +1,4 @@
+(coc)=
 # MARL Values and Code of Conduct
 
 The Music and Audio Research Lab (MARL) is an ever-changing and heterogeneous community of people, brought together by our shared love of music, sound and science. We strive to create an environment that is welcoming and inclusive, where diversity of experiences and viewpoints is valued for the strength it is, and where openness and collaboration are the norm. We are a work in progress and need your help to be better.

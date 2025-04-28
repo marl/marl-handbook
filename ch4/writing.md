@@ -18,13 +18,14 @@ There is no single recipe for a good paper structure, but most will have an orga
 3. Methods
 4. Results
 5. Discussion / conclusion
+6. Bibliography / references
 
 The naming and ordering of these sections may vary by discipline or publication venue---e.g., some communities tend to put *related work* sections at
 the end instead of the beginning---but the breakdown by content is roughly consistent.
 
 Let's go through each of these sections in turn.
 
-### Abstract
+### 💭 Abstract
 
 A good abstract should tell the reader two things: 1) what the contribution of your work is, and 2) why a reader should care about it.
 Very often, this is as much of a paper as a person will ever read, so it is important to make it clear and concise.
@@ -47,7 +48,7 @@ It could be improved as follows:
 A better example of an abstract would be something like this
 ```
 
-### Introduction
+### 🤝 Introduction
 
 The introduction section is not just a rehash of the abstract.
 It should give a bit more background on the problem or subject you are addressing, and articulate your approach and contribution at a high level.
@@ -64,7 +65,7 @@ Oftentimes this is not a good use of space, and a reader can figure out by skimm
 ```
 
 
-### Background and related work
+### 📚 Background and related work
 
 This section is primarily used to help the reader understand where your contribution sits relative to the prior literature on the topic.
 A good background section should not only describe the prior work, but give clear and concise explanations of how your work relates to the prior literature.
@@ -74,7 +75,7 @@ All of these things are helpful to the reader in understanding what exactly your
 
 
 
-### Methods
+### 🧮 Methods
 
 This is usually considered the *core* of the paper: it's where you describe what you did and how you did it.
 This is probably the section you're most excited about writing.
@@ -87,7 +88,7 @@ When describing experiments, it is critical to clearly articulate to the reader 
 Sometimes this is obvious, but often it is not.
 Being explicit on this point never hurts, and it will make the results section easier to write.
 
-### Results
+### 📊 Results
 
 This is where you report the outcomes of your work.
 This could mean reporting tables of accuracy measurements, outcomes of survey data, or any number of other things.
@@ -98,14 +99,30 @@ they are.
 Often you will be conducting multiple experiments or evaluations, or asking several questions articulated in the previous section.
 You might find it useful to break the results section down into subsections corresponding to each research question or experiment.
 
-### Discussion and conclusion
+### 💬 Discussion and conclusion
 
 A discussion section should not be a rehash of the introduction or results section.
 Rather, it should be a place to provide interpretation of the results, provide context, and discuss their implications.
 
 It is also a good place to discuss limitations of your work and outline future directions.
 
-### Other parts
+### 📑 Bibliography / references
+
+The bibliography is essentially automated by the LaTeX package `bibtex`.
+However, there are some best practices you can follow to make your life easier:
+
+1. Do not get your `.bib` data from Google scholar!
+    - Google scholar is great for finding papers, but horrible for getting accurate
+      citation data.
+    - Once you know what paper(s) to cite, it is better to obtain the `.bib` data
+      from a more reputable source, such as [DBLP](https://dblp.org/) if not the
+      original venue of publication.
+2. Maintain your bibliography.
+    - If you cite a paper once, you are likely to cite it again.
+    - Keep your bibliography backed up and transfer it from project to project.
+    - You may want to use a citation manager like [Mendeley](https://mendeley.com/) for this.
+
+### 🔧 Other parts
 
 - Tag your paper and repository at each submission!
 
@@ -173,22 +190,65 @@ TBD
 **Citations are punctuation, not a part of speech.**
 
 
+Do not refer to a `\cite{}` as part of a sentence.  For example, this is wrong:
+
+```{admonition} An incorrect use of citation
+:class: danger
+
+In [7] the authors showed that the flux capacitor may not be sufficient for accurate
+time travel.
+```
+
+Instead, use a sentence structure that makes it clear that the citation is a
+reference to a source, not part of the sentence:
+
+```{admonition} An imporved way to cite
+:class: tip
+
+Brown and McFly showed that the flus capacitor may not be sufficient for accurate
+time travel [7].
+```
+
+Depending on which citation package you're using, this may be easier to achieve in
+LaTeX.
+Some publication venues use the `natbib` package, which replaces the default
+`\cite{}` command with `\citet{}` and `\citep{}`.
+The `\citet{}` command is used for citations that are part of the sentence, while `\citep{}` is used for citations that are not part of the sentence.
+For example:
+
+```{admonition} An example of using natbib
+:class: note
+
+With `\citet{brown1985}`, you would get:
+
+> **Brown and McFly (1985)** showed that the flux capacitor may not be sufficient for
+> accurate time travel.
+
+With `\citep{brown1985}`, you would get:
+
+> Previous authors showed that the flux capacitor may not be sufficient for
+> accurate time travel **(Brown and McFly, 1985)**.
+
+(Bold parts correspond to the output of the citation command.)
+```
 
 
 
+## ✅ Checklist for reviewing your work
 
-## Checklist for reviewing your work
-    - [ ] Free of typos.  Use a spell checker!
-    - [ ] All mathematical notation is defined prior to its first use
-    - [ ] All acronyms and abbreviations are defined prior to use
-    - [ ] All figures and tables are referenced in the text
-    - [ ] All figures have readable font sizes (at least footnote size relative to main text)
-    - [ ] All figures have descriptive captions
+- [ ] Free of typos.  Use a spell checker!
+- [ ] All mathematical notation is defined prior to its first use
+- [ ] All acronyms and abbreviations are defined prior to use
+- [ ] All figures and tables are referenced in the text
+- [ ] All figures have readable font sizes (at least footnote size relative to main text)
+- [ ] All figures have descriptive captions
 
 ## LaTeX-specific tips
-    - In math mode, use `\ell` instead of `l` for the letter "l"
-    - Use `\left` and `\right` for all parentheses, brackets, and braces.  This will make them scale to 
-      the size of the content inside them.
-    - Use `\ref` (or `\cref` with the `cleveref` package, or `\eqref`) for all references to figures, tables, and equations.  This ensures that all numbering stays consistent as things change.
-    - Use `booktabs` and do not include extraneous lines in tables (`tabular` environments).  Use `\toprule`, `\midrule`, and `\bottomrule` to separate the header from the body, and the body from the footer.
+- In math mode, use `\ell` instead of `l` for the letter "l"
+- Use `\left` and `\right` for all parentheses, brackets, and braces.  This will make them scale to 
+  the size of the content inside them.
+- Use `\ref` (or `\cref` with the `cleveref` package, or `\eqref`) for all references to figures, tables, and equations.  This ensures that all numbering stays consistent as things change.
+- Use [`booktabs`](https://mirrors.ibiblio.org/pub/mirrors/CTAN/macros/latex/contrib/booktabs/booktabs.pdf) and do not include extraneous lines in tables (`tabular` environments).  Use `\toprule`, `\midrule`, and `\bottomrule` to separate the header from the body, and the body from the footer.
+- Don't copy-paste unformatted data into tables.  In Python (with Pandas) you can
+use [`df.to_latex()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_latex.html) to generate a LaTeX table from a DataFrame.
 
