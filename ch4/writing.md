@@ -185,6 +185,31 @@ TBD
 ```
 
 
+**Use appropriate numerical precision**
+
+By default, most programming languages will display floating point numbers (i.e.,
+real numbers) in as much precision as possible.
+For example, in numpy:
+
+```python
+>>> import numpy as np
+>>> np.array(np.pi)
+array(3.14159265)
+```
+
+This is not appropriate for most scientific writing, where the practical accuracy of
+a numerical result is probably constrained by things like sample size, measurement
+error, model quantization, and so on.
+When presenting numerical results, for example in a table, it is better to limit the
+amount of precision to something reasonable (typically 3 decimal places).
+You can automate this in Python as follows:
+
+```python
+>>> np.set_printoptions(precision=3)
+>>> np.array(np.pi)
+array(3.142)
+```
+
 **Don't expect readers to see things that aren't there: be explicit.**
 
 **Citations are punctuation, not a part of speech.**

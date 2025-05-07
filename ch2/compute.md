@@ -1,3 +1,4 @@
+(computing)=
 # Computing resources
 
 HPC access

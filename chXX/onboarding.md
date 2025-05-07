@@ -1,3 +1,4 @@
+(checklist)=
 # Onboarding checklist
 
 Welcome to the lab! Use this checklist to guide your initial setup.
