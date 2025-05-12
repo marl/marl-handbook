@@ -9,6 +9,9 @@ workflow that you may be used to.
 To use the HPC, you will need to apply for an account, and list your PI as a faculty sponsor.
 See the [documentation](https://sites.google.com/nyu.edu/nyu-hpc/accessing-hpc/getting-and-renewing-an-account) for details on how to do this.
 
+Especially if you are collaborating with other lab members, it will be helpful to become a member of the `marl` user group on HPC.
+This is only possible after your HPC account has been created, and you will need to ask your PI to request this from the HPC administrators on your behalf.
+
 # Recommendations for HPC use
 
 First, make sure to read through the documentation on how to access the cluster.
@@ -17,9 +20,8 @@ If you are off-campus, you will need to go through either the VPN or an SSH gate
 You will need some basic familiarity with the UNIX command line, see [here](unix) for a quick overview.
 
 
-## Singularity and Conda
-
-
+[Singularity and conda](environment)
 
 ## Open On-Demand (OOD)
 
+TODO

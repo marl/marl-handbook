@@ -258,16 +258,6 @@ With `\citep{brown1985}`, you would get:
 ```
 
 
-
-## ✅ Checklist for reviewing your work
-
-- [ ] Free of typos.  Use a spell checker!
-- [ ] All mathematical notation is defined prior to its first use
-- [ ] All acronyms and abbreviations are defined prior to use
-- [ ] All figures and tables are referenced in the text
-- [ ] All figures have readable font sizes (at least footnote size relative to main text)
-- [ ] All figures have descriptive captions
-
 ## LaTeX-specific tips
 - In math mode, use `\ell` instead of `l` for the letter "l"
 - Use `\left` and `\right` for all parentheses, brackets, and braces.  This will make them scale to 
